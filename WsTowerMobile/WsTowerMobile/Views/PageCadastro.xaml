@@ -24,25 +24,25 @@
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0, 35, 0, 0">
                 <Image Source="baseline_person_black_48dp.png" WidthRequest="25" />
-                <Entry Placeholder="Usuário" ClearButtonVisibility="WhileEditing" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="240" />
+                <Entry Placeholder="Usuário" ClearButtonVisibility="WhileEditing" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="240" Keyboard="Default"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  Margin="0, 15, 0, 0">
                 <Image Source="baseline_email_black_48dp.png" WidthRequest="25"/>
-                <Entry Placeholder="Email" ClearButtonVisibility="WhileEditing" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="240" />
+                <Entry Placeholder="Email" ClearButtonVisibility="WhileEditing" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="240" Keyboard="Email"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  Margin="0, 15, 0, 0">
                 <Image Source="baseline_lock_black_48dp.png" WidthRequest="25"/>
-                <Entry IsPassword="True" Placeholder="Senha" ClearButtonVisibility="WhileEditing" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="240"/>
+                <Entry IsPassword="True" Placeholder="Senha" ClearButtonVisibility="WhileEditing" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="240" Keyboard="Default"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  Margin="0, 15, 0, 0">
                 <Image Source="baseline_lock_black_48dp.png" WidthRequest="25"/>
-                <Entry IsPassword="True" Placeholder= "Confirme sua senha" ClearButtonVisibility="WhileEditing" VerticalOptions="Start"  HorizontalOptions="Center" WidthRequest="240" />
+                <Entry IsPassword="True" Placeholder= "Confirme sua senha" ClearButtonVisibility="WhileEditing" VerticalOptions="Start"  HorizontalOptions="Center" WidthRequest="240" Keyboard="Default"/>
             </StackLayout>
 
-            <Button Clicked="botaoCadastrar" Text="Cadastrar" HorizontalOptions="Center" Margin="0, 20, 0, 0" Padding="8, 0, 8, 0" CornerRadius="15" BackgroundColor="#20aae3" TextColor="#F9EEF1" WidthRequest="95"/>
+            <Button Clicked="botaoCadastrar" Text="Cadastrar" HorizontalOptions="Center" Margin="0, 20, 0, 0" Padding="8, 0, 8, 0" CornerRadius="15" BackgroundColor="#20aae3" TextColor="#F9EEF1" WidthRequest="250" FontAttributes="Bold" FontSize="15"/>
 
             <Button Clicked="botaoLogin"
                     BackgroundColor="Transparent"
