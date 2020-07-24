@@ -1,5 +1,7 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,17 +17,30 @@ namespace WsTowerMobile.Views
         public PageLogin()
         {
             InitializeComponent();
-           // NavigationPage.SetHasNavigationBar(this, false);
+          NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        public void botaoEntrar(object sender, EventArgs args)
+        async void botaoEntrar(object sender, EventArgs args)
         {
-            Navigation.PushAsync (new PagePrincipal());
+            var usuarios = await App.Database.GetUserAsync();
+
+            var usuario = usuarios.Where(p => p.Email == enterEmail.Text && p.Senha == enterSenha.Text).FirstOrDefault();
+
+            if (usuario != null)
+            {
+                    await Navigation.PushAsync(new PagePrincipal());
+            } else
+            {
+                    await DisplayAlert("Erro", "O usuário ou senha estão incorretos", "Ok");
+            }
+            
+
         }
+            
 
         public void botaoCadastrese(object sender, EventArgs e)
         {
-             Navigation.PushAsync (new PageCadastro());
+            Navigation.PushAsync(new PageCadastro());
         }
     }
 }

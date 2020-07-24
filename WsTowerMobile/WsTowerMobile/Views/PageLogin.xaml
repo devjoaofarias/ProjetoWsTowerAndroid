@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="WsTowerMobile.Views.PageLogin"
-             Title="Login">
+             Title="Login" BackgroundColor="#F9EEF1">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" BackgroundColor="#F9EEF1">
            <ImageButton 
@@ -13,18 +13,18 @@
                 WidthRequest = "230"
                 VerticalOptions="Start"
                 HorizontalOptions="CenterAndExpand"
-                Margin="0, 140, 0, 20"
+                Margin="0, 150, 0, 20"
                 BackgroundColor="Transparent"
                 />
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  Margin="0, 25, 0, 0">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  Margin="0, 35, 0, 0">
                 <Image Source="baseline_email_black_48dp.png" WidthRequest="25"/>
-                <Entry Placeholder="Email" ClearButtonVisibility="WhileEditing" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="240" Keyboard="Email"/>
+                <Entry x:Name="enterEmail" Placeholder="Email" ClearButtonVisibility="WhileEditing" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="250" Keyboard="Email"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  Margin="0, 20, 0, 0">
                 <Image Source="baseline_lock_black_48dp.png" WidthRequest="25"/>
-                <Entry IsPassword="True" Placeholder= "Senha" ClearButtonVisibility="WhileEditing" VerticalOptions="Start"  HorizontalOptions="Center" WidthRequest="240" Keyboard="Default"/>
+                <Entry x:Name="enterSenha" IsPassword="True" Placeholder= "Senha" ClearButtonVisibility="WhileEditing" VerticalOptions="Start"  HorizontalOptions="Center" WidthRequest="250" Keyboard="Default"/>
             </StackLayout>
 
             <Button Clicked="botaoEntrar" Text="Entrar" HorizontalOptions="Center" Margin="0, 30, 0, 0" Padding="0, 0, 0, 0" CornerRadius="15" BackgroundColor="#20aae3" TextColor="#F9EEF1" WidthRequest="250" FontAttributes="Bold" FontSize="15"/>
@@ -32,7 +32,7 @@
             <Button Clicked="botaoCadastrese"
                     BackgroundColor="Transparent"
                     TextColor="#20aae3"
-                    Margin="0, 0, 0, 30"
+                    Margin="0, 0, 0, 40"
                     HorizontalOptions="Center"
                     Text="Cadastre-se"
                     VerticalOptions="EndAndExpand"

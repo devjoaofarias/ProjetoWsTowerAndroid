@@ -1,15 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="WsTowerMobile.Views.PagePrincipal">
-    <ContentPage.Content>
-        <StackLayout BackgroundColor="#F9EEF1">
-            <Label Text="FAZER PAGINA PRINCIPAL!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+             x:Class="WsTowerMobile.Views.PagePrincipal"
+             Title="WsTower"
+             MasterBehavior="Popover">
+
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="#00A5E0" Title="Master" WidthRequest="15">
+            <StackLayout>
+                <StackLayout VerticalOptions="Start">
+                    <Image Source="LogoBranco.png" VerticalOptions="CenterAndExpand" Margin="40, 20, 40, 5"/>
+                </StackLayout>
+                <Button Text="Nossa História" Clicked="botaoNossaHist" BackgroundColor="#F9EEF1" HeightRequest="45" WidthRequest="70" Margin="25,15,25,5" CornerRadius="15"/>
+                <Button Text="Eventos passados" Clicked="botaoAnt" BackgroundColor="#F9EEF1 " HeightRequest="45" WidthRequest="70" Margin="25,10,25,5" CornerRadius="15"/>
+                <Button Text="Próximos eventos" Clicked="botaoProx" BackgroundColor="#F9EEF1 " HeightRequest="45" WidthRequest="70" Margin="25,10,25,5" CornerRadius="15"/>
+                <Button Text="Localização" Clicked="botaoLocalizacao"  BackgroundColor="#F9EEF1 " HeightRequest="45" WidthRequest="70" Margin="25,10,25,5" CornerRadius="15"/>
+                <Button Text="Contato" Clicked="botaoContato" BackgroundColor="#F9EEF1 " HeightRequest="45" WidthRequest="70" Margin="25,10,25,5" CornerRadius="15"/>
+
+                <StackLayout VerticalOptions="End" HorizontalOptions="Start">
+                    <Button Text="Sair" Clicked="botaoSair" BackgroundColor="#F9EEF1 " Margin="25, 220, 75, 25" HeightRequest="35" WidthRequest="90" VerticalOptions="EndAndExpand" HorizontalOptions="Center" CornerRadius="15"/>
+                </StackLayout>
+                
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10">
+            <StackLayout Margin="5,30,5,5">
+                <Label Text="BEM VINDO!!!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontSize="Title" TextColor="#00A5E0"/>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>
