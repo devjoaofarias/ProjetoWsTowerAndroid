@@ -49,17 +49,17 @@
                 </StackLayout>
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                 <ImageButton Source="tomorrowland.jpeg" WidthRequest="145" HeightRequest="95" BorderColor="#00A5E0" BorderWidth="5"/>
                 <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
-                        <Label Text="FESTIVAL ELETRONICO" FontSize="18" TextColor="#363636"/>
+                        <Label Text="FESTIVAL" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 17/06/2021" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Eletronica" FontSize="14" TextColor="#363636"/>
                         <Label Text="Classificação: 16 anos!" FontSize="14" TextColor="#363636"/>
                 </StackLayout>
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 20, 0, 0">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                 <ImageButton Source="vilamix.png" WidthRequest="145" HeightRequest="95" BorderColor="#00A5E0" BorderWidth="5"/>
                 <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="SHOW VILAMIX!" FontSize="18" TextColor="#363636"/>
@@ -99,10 +99,10 @@
                 </StackLayout>
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 30">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 20">
                 <ImageButton Source="tomorrowland.jpeg" WidthRequest="145" HeightRequest="95" BorderColor="#00A5E0" BorderWidth="5"/>
                     <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
-                        <Label Text="FESTIVAL ELETRONICO" FontSize="18" TextColor="#363636"/>
+                        <Label Text="FESTIVAL" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 17/06/2021" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Eletronica" FontSize="14" TextColor="#363636"/>
                         <Label Text="Classificação: 16 anos!" FontSize="14" TextColor="#363636"/>

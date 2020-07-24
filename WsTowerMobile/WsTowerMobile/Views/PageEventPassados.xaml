@@ -20,7 +20,7 @@
                     </StackLayout>
                 </StackLayout>
                 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 20, 0, 0">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                     <ImageButton Source="vilamix.png" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
                     <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="SHOW VILAMIX!" FontSize="18" TextColor="#363636"/>
@@ -50,7 +50,7 @@
                     </StackLayout>
                 </StackLayout>
 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="10, 15, 0, 0">
                     <ImageButton Source="theSend.jpeg" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
                     <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="EVENTRO CRISTÃO" FontSize="18" TextColor="#363636"/>
@@ -60,7 +60,7 @@
                     </StackLayout>
                 </StackLayout>
                 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 20, 0, 0">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                     <ImageButton Source="vilamix.png" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
                     <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="SHOW VILAMIX!" FontSize="18" TextColor="#363636"/>
@@ -100,7 +100,7 @@
                     </StackLayout>
                 </StackLayout>
 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 30">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="35, 15, 10, 30">
                     <ImageButton Source="tomorrowland.jpeg" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
                     <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="FESTIVAL ELETRONICO" FontSize="18" TextColor="#363636"/>
