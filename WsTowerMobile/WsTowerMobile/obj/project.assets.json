@@ -875,11 +875,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj",
+      "projectUniqueName": "C:\\Users\\joaos\\OneDrive\\Senai\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj",
       "projectName": "WsTowerMobile",
-      "projectPath": "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj",
+      "projectPath": "C:\\Users\\joaos\\OneDrive\\Senai\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj",
       "packagesPath": "C:\\Users\\joaos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile\\obj\\",
+      "outputPath": "C:\\Users\\joaos\\OneDrive\\Senai\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
