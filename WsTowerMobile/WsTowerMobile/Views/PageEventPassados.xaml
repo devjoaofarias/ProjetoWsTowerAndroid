@@ -10,9 +10,9 @@
         <ScrollView>
             <StackLayout Orientation="Vertical" BackgroundColor="#F9EEF1">
 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 20, 0, 0">
                     <ImageButton Source="lolapalooza.jpg" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="LOlLAPALOOZA!" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 15/08/2018" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Internacional" FontSize="14" TextColor="#363636"/>
@@ -22,7 +22,7 @@
                 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 20, 0, 0">
                     <ImageButton Source="vilamix.png" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="SHOW VILAMIX!" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 29/02/2019" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Sertanejo" FontSize="14" TextColor="#363636"/>
@@ -32,7 +32,7 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                     <ImageButton Source="tomorrowland.jpeg" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="Festival eletronico" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 17/05/2019" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Eletronica" FontSize="14" TextColor="#363636"/>
@@ -42,8 +42,8 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                     <ImageButton Source="selecaoLendas.png" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
-                        <Label Text="Jogo de amigos" FontSize="18" TextColor="#363636"/>
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
+                        <Label Text="JOGO DE AMIGOS" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 25/05/2019" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Sertanejo" FontSize="14" TextColor="#363636"/>
                         <Label Text="Classificação: 16 anos!" FontSize="14" TextColor="#363636"/>
@@ -52,8 +52,8 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                     <ImageButton Source="theSend.jpeg" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
-                        <Label Text="Evento cristão" FontSize="18" TextColor="#363636"/>
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
+                        <Label Text="EVENTRO CRISTÃO" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 05/10/2019" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Católico" FontSize="14" TextColor="#363636"/>
                         <Label Text="Classificação: 12 anos!" FontSize="14" TextColor="#363636"/>
@@ -62,7 +62,7 @@
                 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 20, 0, 0">
                     <ImageButton Source="vilamix.png" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="SHOW VILAMIX!" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 29/11/2019" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Sertanejo" FontSize="14" TextColor="#363636"/>
@@ -72,7 +72,7 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                     <ImageButton Source="lolapalooza.jpg" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
                         <Label Text="LOlLAPALOOZA!" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 15/12/2019" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Internacional" FontSize="14" TextColor="#363636"/>
@@ -82,8 +82,8 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                     <ImageButton Source="selecaoLendas.png" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
-                        <Label Text="Jogo de amigos" FontSize="18" TextColor="#363636"/>
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
+                        <Label Text="JOGO DE AMIGOS" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 25/02/2020" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Sertanejo" FontSize="14" TextColor="#363636"/>
                         <Label Text="Classificação: 16 anos!" FontSize="14" TextColor="#363636"/>
@@ -92,8 +92,8 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0">
                     <ImageButton Source="theSend.jpeg" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
-                        <Label Text="Evento cristão" FontSize="18" TextColor="#363636"/>
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
+                        <Label Text="EVENTO CRISTÃO" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 05/02/2020" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Católico" FontSize="14" TextColor="#363636"/>
                         <Label Text="Classificação: 12 anos!" FontSize="14" TextColor="#363636"/>
@@ -102,8 +102,8 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 30">
                     <ImageButton Source="tomorrowland.jpeg" WidthRequest="145" HeightRequest="95" BorderColor="#CC0700" BorderWidth="5"/>
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="5, 0, 0, 0">
-                        <Label Text="Festival eletronico" FontSize="18" TextColor="#363636"/>
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="15, 0, 0, 0">
+                        <Label Text="FESTIVAL ELETRONICO" FontSize="18" TextColor="#363636"/>
                         <Label Text="Data: 17/03/2020" FontSize="14" TextColor="#363636"/>
                         <Label Text="Genero: Eletronica" FontSize="14" TextColor="#363636"/>
                         <Label Text="Classificação: 16 anos!" FontSize="14" TextColor="#363636"/>

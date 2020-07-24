@@ -32,22 +32,30 @@ namespace WsTowerMobile.Views
         {
             if (!String.IsNullOrWhiteSpace(EnterUsuario.Text) && !String.IsNullOrWhiteSpace(EnterEmail.Text) && !String.IsNullOrWhiteSpace(EnterSenha.Text) && !String.IsNullOrWhiteSpace(EnterSenhaConfirm.Text))
             {
-                await App.Database.SaveUserAsync(new Usuario
-                {   
-                    User = EnterUsuario.Text,
-                    Email = EnterEmail.Text,
-                    Senha = EnterSenha.Text
-                }); ;
+                if (EnterSenha.Text == EnterSenhaConfirm.Text)
+                {
+                    await App.Database.SaveUserAsync(new Usuario
+                    {
+                        User = EnterUsuario.Text,
+                        Email = EnterEmail.Text,
+                        Senha = EnterSenha.Text
+                    }); ;
 
-                EnterUsuario.Text = EnterEmail.Text = EnterSenha.Text = EnterSenhaConfirm.Text = string.Empty;
+                    EnterUsuario.Text = EnterEmail.Text = EnterSenha.Text = EnterSenhaConfirm.Text = string.Empty;
 
-                listView.ItemsSource = await App.Database.GetUserAsync();
+                    listView.ItemsSource = await App.Database.GetUserAsync();
 
-                await DisplayAlert("Cadastrado", "Usuário cadastrado com sucesso!", "Ok");
-            }
+                    await DisplayAlert("Cadastrado", "Usuário cadastrado com sucesso!", "Ok");
+                    await Navigation.PopAsync();
+                } else
+                {
+                    await DisplayAlert("Senhas distintas", "Confirmação de senha falhou, tente novamente!", "Ok");
+                }
+            } else
             {
-                await DisplayAlert("Erro", "Ocorreu algum erro, ferifique novamente", "Ok");
+                await DisplayAlert("Erro", "Preencha todos os espaços e tente novamente!", "Ok");            
             }
+            
         }
     }
 }

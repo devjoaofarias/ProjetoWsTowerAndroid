@@ -24,17 +24,20 @@ namespace WsTowerMobile.Views
 
         async void botaoContato (object sender, EventArgs args)
         {
-            await DisplayAlert("Contato", "Telefone: (11) 2020-5050" +
-                "                        Email: WsTower@gmail.com", "OK");
+            await DisplayAlert("Contato", "Email: WsTower@gmail.com", "OK");
         }
         async void botaoLocalizacao(object sender, EventArgs args)
         {
             await DisplayAlert("Localização", "Brazil, Sp, Av. São João nº:99999", "OK");
         }
 
-        public void botaoSair(object sender, EventArgs args)
+        async void botaoSair(object sender, EventArgs args)
         {
-            Thread.CurrentThread.Abort();
+            bool answer = await DisplayAlert("Atenção", "Deseja sair do aplicativo?", "Sim", "Não");
+            if( answer == true)
+            {
+                Thread.CurrentThread.Abort();
+            }
         }
 
         public void botaoProx(object sender, EventArgs args)

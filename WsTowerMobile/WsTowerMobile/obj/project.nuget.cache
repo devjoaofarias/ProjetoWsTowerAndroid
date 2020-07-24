@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CK5JNM1wOPSIviKQYYU3VjWUwWJBee2JTaK/9bEIvvstrKCovy1hqUO01/COAmaASLX99SNQu9gGxSThAsWvuA==",
+  "dgSpecHash": "l8Dut50M99eq8iw/6yH1oJyR35pDFCtmrbNbpVUxna2MieQnYciW7oGJt1AUcBpaL+o6hDRvb6R0/hPlSQZ4Tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaos\\OneDrive\\Senai\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj",
+  "projectFilePath": "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\joaos\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -2174,11 +2174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaos\\OneDrive\\Senai\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.Android\\WsTowerMobile.Android.csproj",
+      "projectUniqueName": "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile.Android\\WsTowerMobile.Android.csproj",
       "projectName": "WsTowerMobile.Android",
-      "projectPath": "C:\\Users\\joaos\\OneDrive\\Senai\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.Android\\WsTowerMobile.Android.csproj",
+      "projectPath": "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile.Android\\WsTowerMobile.Android.csproj",
       "packagesPath": "C:\\Users\\joaos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaos\\OneDrive\\Senai\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.Android\\obj\\",
+      "outputPath": "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2199,8 +2199,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\joaos\\OneDrive\\Senai\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj": {
-              "projectPath": "C:\\Users\\joaos\\OneDrive\\Senai\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj"
+            "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj": {
+              "projectPath": "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.csproj"
             }
           }
         }

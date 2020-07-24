@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/XL6OguS458CNSwwACVBZDAudS0FRzd8oqflB3EGBR7mTtk3F+/83ZtkdZLtT50Xvf2z8uZRxB8n4t+oyvm0QA==",
+  "dgSpecHash": "hpUxzta3uEG2lhz1VKc1ledGfvocIUSBeMoCFn2F6/ktwZ/MpZO2pcd1WDSzTlrZK9wQ8vV//wvPBiTEhf/mLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaos\\OneDrive\\Senai\\WsTowerMobile\\WsTowerMobile\\WsTowerMobile.Android\\WsTowerMobile.Android.csproj",
+  "projectFilePath": "C:\\Users\\joaos\\Desktop\\ProjetoWsTowerAndroid\\WsTowerMobile\\WsTowerMobile.Android\\WsTowerMobile.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaos\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\joaos\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

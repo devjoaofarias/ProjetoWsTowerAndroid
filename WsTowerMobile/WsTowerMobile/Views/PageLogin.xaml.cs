@@ -31,7 +31,7 @@ namespace WsTowerMobile.Views
                     await Navigation.PushAsync(new PagePrincipal());
             } else
             {
-                    await DisplayAlert("Erro", "O usuário ou senha estão incorretos", "Ok");
+                    await DisplayAlert("Erro", "Usuário ou senha estão incorretos!", "Ok");
             }
             
 
